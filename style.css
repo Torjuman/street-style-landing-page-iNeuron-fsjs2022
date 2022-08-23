@@ -1,0 +1,188 @@
+/* css flash */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* container division(full body) setup */
+.container {
+    margin: 20px 10%;
+    font-family: "Orbitron", "Poppins", serif, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* navigation bar setup */
+.navbar-container {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+.navbar-container img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    left: 36%;
+    top: 30px;
+    list-style: none;
+    font-family: "Orbitron";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 800;
+}
+
+.button-group {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+
+.search-icon {
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+.search-icon svg {
+    width: 20px;
+    margin-top: 5px;
+}
+
+.nav-button {
+    position: relative;
+    bottom: 40px;
+    padding: 5px 35px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* main body part setup */
+.hero-container {
+    display: block;
+    margin: 5px 0px;
+}
+
+.hero-container [alt="person-hero-iamge"] {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 400px;
+}
+
+.square {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+
+.square img {
+    width: 350px;
+}
+
+.star {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.star img {
+    width: 40px;
+}
+
+.globe {
+    position: absolute;
+    top: 16%;
+    left: 55%;
+}
+
+.globe img {
+    width: 35px;
+}
+
+/* contant part */
+.hero-container-right {
+    position: relative;
+    left: 42%;
+    width: 60%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.hero-heading {
+    font-weight: 800;
+    font-size: 47px;
+}
+
+.hero-description {
+    padding: 50px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.button-email,
+.button-join {
+    margin-top: 30px;
+    padding: 2px 20px;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border: 2px solid #1f1f1f;
+    border-radius: 5px;
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button-join {
+    margin-left: 10px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 2px;
+}
+
+
+/* footer section */
+.contact-heading {
+    margin-top: 100px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons img {
+    width: 35px;
+    padding: 5px;
+}
